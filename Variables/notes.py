@@ -1,0 +1,1 @@
+# Ali Walton, Variables Notes
