@@ -1,6 +1,6 @@
 # Ali Walton, Variables Practice Python
 
-myname= "Ali"
+myname = "Ali"
 
 print(myname)
 
