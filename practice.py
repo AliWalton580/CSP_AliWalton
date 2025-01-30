@@ -6,19 +6,31 @@ print(myname)
 
 smallnumber = "6"
 
+print(smallnumber)
+
 largenum = "53"
+
+print(largenum)
 
 breakfast = "toast"
 
-favoritecolor = "purple"
+print(breakfast)
+
+favcolor = "purple"
+
+print(favcolor)
 
 schoolname = "UCAS"
+
+print(schoolname)
 
 year = "2025"
 
 print(year)
 
 eyecolor = "blue"
+
+print(eyecolor)
 
 age = "15"
 
