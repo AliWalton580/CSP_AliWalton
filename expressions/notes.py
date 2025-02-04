@@ -11,3 +11,6 @@ print(10.5//5) #Whole number division
 print(10.5%5) #Modulo/Modulus/MOD Gives the remainder
 
 print(3+7*2)
+pi = 3.14159
+print(round(pi,4))
+print(f"{pi:.4f}")
