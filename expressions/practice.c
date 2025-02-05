@@ -10,12 +10,17 @@ int equation5 = -2*(1*4-2/2)+(6+2-3);
 int equation6 = -1*((3-4*7)/5)-2*24/6;
 
 int main(void){
+    int equation7 = (3*pow(5,2)/15)-(5-pow(2,2));
+    int equation8 = ((pow(1,4)*pow(2,2)+pow(3,3))-pow(2,5)/4);
+    int equation9 = (pow((22/2-2*5),2)+pow((4-6/6),2));
     printf("%d\n", equation1);
     printf("%d\n", equation2);
     printf("%d\n", equation3);
     printf("%d\n", equation4);
     printf("%d\n", equation5);
     printf("%d\n", equation6);
-    printf(3*(int)pow(5, 2)/15)-(5-(int)pow(2,2));
+    printf("%d\n", equation7);
+    printf("%d\n", equation8);
+    printf("%d\n", equation9);
     return 0;
 }
