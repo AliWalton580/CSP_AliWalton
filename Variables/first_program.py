@@ -1,4 +1,4 @@
-# Ali Walton, Variables Notes
+# Ali Walton, First Program in python
 
 name = input("Please tell me your name: ")
 

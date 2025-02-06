@@ -1,3 +1,4 @@
+// Ali Walton, Practice in C
 #include <stdio.h>
 
 char name[] = "Ali";

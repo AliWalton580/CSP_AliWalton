@@ -1,3 +1,4 @@
+//Ali Walton, First Program in C
 #include <stdio.h>
 
 char name[20];
