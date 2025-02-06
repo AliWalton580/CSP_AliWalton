@@ -11,29 +11,30 @@ utilities = float(input("What is your monthly utilities cost\n"))
 # Ask for groceries amount (User input)
 groceries = float(input("What is your monthly grocerie cost\n"))
 # Ask for transportation amount (User input)
-groceries = float(input("What is your monthly grocerie cost\n"))
+transportation = float(input("What is your monthly transportation cost\n"))
 # Calculate savings as 10% of income (variable)
-
-# Calculate spending money income - (rent+utilities+groceries+transportation+savings) (variable)
-
+savings = income*0.1
+# Calculate spending money income - (rent-utilities-groceries-transportation-savings) (variable)
+spending = income-rent-utilities-groceries-transportation-savings
 # Calculate percent of rent (rent/income) (variable)
-
+rentpercent = (rent/income)*100
 # Calculate percent of utilities (utilities/income) (variable)
-
+utilitiespercent = (utilities/income)*100
 # Calculate percent of groceries (groceries/income) (variable)
-
+groceriespercent = (groceries/income)*100
 # Calculate percent of transportation (transportation/income) (variable)
-
+tranportpercent = (transportation/income)*100
 # Calculate percent of spending (spending/income) (variable)
-
+spendingpercent = (spending/income)*100
 # tell user catagorie spending amount AND percent for rent ("you spend $XX>XX on rent and that is XX% of your income")
-
+print("you spend")
 # tell user catagorie spending amount AND percent for utilities ("you spend $XX>XX on utilities and that is XX% of your income")
-
+print("you spend")
 # tell user catagorie spending amount AND percent for groceries ("you spend $XX>XX on groceries and that is XX% of your income")
-
+print("you spend")
 # tell user catagorie spending amount AND percent for transportation ("you spend $XX>XX on transportaion and that is XX% of your income")
-
+print("you spend")
 # tell user catagorie spending amount AND percent for spending ("you spend $XX>XX on spending and that is XX% of your income")
-
+print("you spend")
 # tell user catagorie spending amount AND percent for savings ("you spend $XX>XX on savings and that is 10% of your income")
+print("you spend")
