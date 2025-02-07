@@ -42,7 +42,5 @@ int main(void){
     printf("Welcome to my program, this financial calculator will tell you your monthly spending amount on different expensses and the percentage cost of your monthly income.\n");
     printf("%s\n", "What is your monthly income:\n");
     scanf("%s\n", income);
-    printf("%s\n", "What is your monthly rent cost:\n");
-    scanf("%s\n", rent);
      return 0;
 }
