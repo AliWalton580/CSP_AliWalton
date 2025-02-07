@@ -23,18 +23,18 @@ utilitiespercent = (utilities/income)*100
 # Calculate percent of groceries (groceries/income) (variable)
 groceriespercent = (groceries/income)*100
 # Calculate percent of transportation (transportation/income) (variable)
-tranportpercent = (transportation/income)*100
+transportpercent = (transportation/income)*100
 # Calculate percent of spending (spending/income) (variable)
 spendingpercent = (spending/income)*100
 # tell user catagorie spending amount AND percent for rent ("you spend $XX.XX on rent and that is XX% of your income")
-print("you spend")
+print(f"you spend ${rent} on rent and that is {rentpercent:.2f}% of your income")
 # tell user catagorie spending amount AND percent for utilities ("you spend $XX.XX on utilities and that is XX% of your income")
-print("you spend")
+print(f"you spend ${utilities} on utilities and that is {utilitiespercent:.2f}% of your income")
 # tell user catagorie spending amount AND percent for groceries ("you spend $XX.XX on groceries and that is XX% of your income")
-print("you spend")
+print(f"you spend ${groceries} on groceries and that is {groceriespercent:.2f}% of your income")
 # tell user catagorie spending amount AND percent for transportation ("you spend $XX.XX on transportaion and that is XX% of your income")
-print("you spend")
+print(f"you spend ${transportation} on transportation and that is {transportpercent:.2f}% of your income")
 # tell user catagorie spending amount AND percent for spending ("you spend $XX.XX on spending and that is XX% of your income")
-print("you spend")
+print(f"you spend ${spending} on spending and that is {spendingpercent:.2f}% of your income")
 # tell user catagorie spending amount AND percent for savings ("you spend $XX.XX on savings and that is 10% of your income")
-print("you spend")
+print(f"you spend ${savings} on savings and that is 10% of your income")
