@@ -1,7 +1,7 @@
 # Ali Walton, Finacial Calculator Python
 
 # write a print statement telling the user what the program is (Budget calculator)
-
+print("Welcome to my program, this financial calculator will tell you your monthly spending amount on different expensses and the percentage cost of your monthly income.")
 # Ask for monthly income (User input)
 income = float(input("What is your monthly income\n"))
 # Ask for rent amount (User input)
@@ -16,15 +16,15 @@ transportation = float(input("What is your monthly transportation cost\n"))
 savings = income*0.1
 # Calculate spending money income - (rent-utilities-groceries-transportation-savings) (variable)
 spending = income-rent-utilities-groceries-transportation-savings
-# Calculate percent of rent (rent/income) (variable)
+# Calculate percent of rent (rent/income)*100 (variable)
 rentpercent = (rent/income)*100
-# Calculate percent of utilities (utilities/income) (variable)
+# Calculate percent of utilities (utilities/income)*100 (variable)
 utilitiespercent = (utilities/income)*100
-# Calculate percent of groceries (groceries/income) (variable)
+# Calculate percent of groceries (groceries/income)*100 (variable)
 groceriespercent = (groceries/income)*100
-# Calculate percent of transportation (transportation/income) (variable)
+# Calculate percent of transportation (transportation/income)*100 (variable)
 transportpercent = (transportation/income)*100
-# Calculate percent of spending (spending/income) (variable)
+# Calculate percent of spending (spending/income)*100 (variable)
 spendingpercent = (spending/income)*100
 # tell user catagorie spending amount AND percent for rent ("you spend $XX.XX on rent and that is XX% of your income")
 print(f"you spend ${rent} on rent and that is {rentpercent:.2f}% of your income")
