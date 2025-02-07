@@ -12,14 +12,15 @@ int sub = 4-6;
 int mul = 4*6;
 float div = 6/4;
 int mod = 6%4;
-int ex = pow(5, 2);
+
 
 int main(void){
+int ex = pow(5, 2);
 printf("%d\n", add);
 printf("%d\n", sub);
 mul = 7*4;
 printf("%d\n", mul);
-printf("%.2f\n", div);
+printf("%f.2f\n", div);
 printf("%d\n", mod);
 printf("%d\n", ex);
  return 0;
