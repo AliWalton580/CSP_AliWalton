@@ -2,4 +2,6 @@
 
 name = input("What is your name\n").strip().capitalize()
 
-print(f"=== {name} ===")
+decoration = "="
+
+print(decoration + decoration + decoration + name + decoration +decoration +decoration)
