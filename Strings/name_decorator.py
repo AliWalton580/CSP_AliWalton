@@ -1,7 +1,8 @@
 # Ali Walton, Name Decorator Python
 
-name = input("What is your name\n").strip().capitalize()
+name = input("What is your name?\n").strip().capitalize()
 
-decoration = "="
+decoration = "=== "
+decoration2 = " ==="
 
-print(decoration + decoration + decoration + name + decoration +decoration +decoration)
+print(decoration + name + decoration2)
