@@ -1,15 +1,17 @@
 # Ali Walton, Silly Sentences Python
 
+print("Welcome to my program, this will make a silly sentence by filling in the following blanks.")
+
 name = input("Give me a name:\n").strip().capitalize()
 
 animal = input("Give me a animal:\n")
 
 verb = input("Give me an present tense verb:\n")
 
-animaltwo = input("Give me another aanimal:\n")
-
 time = input("Give me a time:\n")
 
 place = input("Give me a place:\n")
 
-print(f"{name} is {verb} from a {animaltwo} at the time {time} at {place}.")
+food = input("Give me a food:\n")
+
+print(f"{name} is {verb} from a {animal} at a {place} while eating {food} at {time}.")
