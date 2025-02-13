@@ -14,4 +14,4 @@ place = input("Give me a place:\n")
 
 food = input("Give me a food:\n")
 
-print(f"{name} is {verb} from a {animal} at a {place} while eating {food} at {time}.")
+print(f"{name} is {verb} from a scary {animal} at a {place} while eating their favorite food {food} at {time}.")
