@@ -10,6 +10,6 @@ int main(void){
     greet("Max");
     greet("Samantha");
     greet("Pepper");
-    greet("Ale");
+    greet("Alex");
     return 0;
 }
