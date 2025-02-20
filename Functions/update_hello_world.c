@@ -2,9 +2,14 @@
 #include <stdio.h>
 
 void greet(char name[]){
-    printf("Hello %s", name);
+    printf("Hello %s\n", name);
 }
 
 int main(void){
+    greet("Olivia");
+    greet("Max");
+    greet("Samantha");
+    greet("Pepper");
+    greet("Ale");
     return 0;
 }
