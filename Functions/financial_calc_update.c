@@ -1,12 +1,6 @@
 //Ali Walton, Financial Calculaotr Update in C
 #include <stdio.h>
 
-void user(float cost, char type[]){
-    float costs = (cost);
-    char name = (type);
-    printf("What is your monthly cost of %s", name);
-}
-
 void info(float income, float amount, char type[]){
     float per = (amount/income)*100;
     printf("you spend $%.2f on %s and that is %.0f%% of your income.\n", amount, type , per);
@@ -32,8 +26,14 @@ void info(float income, float amount, char type[]){
 int main(void){
     printf("Welcome to my program, this financial calculator will tell you your monthly spending amount on different expensses and the percentage cost of your monthly income.\n");
 
-    float income = user("income");
-    float rent = user("rent");
+    float income;
+    float rent;
+    float utilities;
+    float groceries;
+    float transportation;
+    float spending;
+    float savings;
+
 
     info(income, rent, "rent");
     info(income, utilities, "utilities");
