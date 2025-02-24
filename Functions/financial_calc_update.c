@@ -1,13 +1,13 @@
 //Ali Walton, Financial Calculaotr Update in C
 #include <stdio.h>
 
-    float income;
-    float rent;
-    float utilities;
-    float groceries;
-    float transportation;
-    float spending;
-    float savings;
+float income;
+float rent;
+float utilities;
+float groceries;
+float transportation;
+float spending;
+float savings;
 
 
 void info(float income, float amount, char type[]){
@@ -16,7 +16,7 @@ void info(float income, float amount, char type[]){
 }
 
 float user(float amount, char type[]){
-    printf("What is you monthly cost of %s:\n", type);
+    printf("What is you monthly %s:\n", type);
     scanf("%f", &amount);
 }
 
