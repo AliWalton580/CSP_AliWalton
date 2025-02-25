@@ -15,7 +15,7 @@ void info(float income, float amount, char type[]){
     printf("you spend $%.2f on %s and that is %.2f%% of your income.\n", amount, type , per);
 }
 
-char user(float amount, char type[]){
+float user(float amount, char type[]){
     printf("What is you monthly %s:\n", type);
     scanf("%f", &amount);
 }
