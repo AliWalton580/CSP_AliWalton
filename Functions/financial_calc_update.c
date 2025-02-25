@@ -1,21 +1,21 @@
 //Ali Walton, Financial Calculaotr Update in C
 #include <stdio.h>
 
-float income;
-float rent;
-float utilities;
-float groceries;
-float transportation;
-float spending;
-float savings;
+    float income;
+    float rent;
+    float utilities;
+    float groceries;
+    float transportation;
+    float spending;
+    float savings;
 
 
 void info(float income, float amount, char type[]){
     float per = (amount/income)*100;
-    printf("you spend $%.2f on %s and that is %.0f%% of your income.\n", amount, type , per);
+    printf("you spend $%.2f on %s and that is %.2f%% of your income.\n", amount, type , per);
 }
 
-float user(float amount, char type[]){
+char user(float amount, char type[]){
     printf("What is you monthly %s:\n", type);
     scanf("%f", &amount);
 }
