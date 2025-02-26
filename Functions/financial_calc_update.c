@@ -38,4 +38,3 @@ int main(void){
     info(income, spending, "spending");
     info(income, savings, "savings");
      return 0;
-}
