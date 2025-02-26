@@ -9,12 +9,6 @@
     float spending;
     float savings;
 
-    char income1;
-    char rent1;
-    char utilities1;
-    char groceries1;
-    char transportation1;
-
 void info(float income, float amount, char type[]){
     float per = (amount/income)*100;
     printf("you spend $%.2f on %s and that is %.0f%% of your income.\n", amount, type , per);
@@ -23,6 +17,7 @@ void info(float income, float amount, char type[]){
 float user(float amount, char type[]){
     printf("What is you monthly %s:\n", type);
     scanf("%f", &amount);
+    return amount;
 }
 
 int main(void){
