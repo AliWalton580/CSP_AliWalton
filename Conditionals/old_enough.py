@@ -6,10 +6,11 @@ age = int(input("Please tell me your age:\n"))
 
 if age >= 5:
     if age >= 15:
-        print(f"You are old enough to get a leaners permit!")
-    elif age<= 14 :
-        print(f"{age} is not old enough to get a leaners permit.")
-    if age >= 18:
-        print(f"You are old enought to vote!")
-    elif age <= 17:
-        print(f"{age} is not old enough to vote.")
+        print(f"You are old enough to get a leaners permit and go to school! But not old enough to vote, or drive.")
+    elif age >= 18:
+         print(f"You are old enough to have a leaners permit, go to school, vote have a drivers licsense!")
+        elif age >= 
+    else:
+        print(f"If you are {age} you cannot drive")
+
+   
