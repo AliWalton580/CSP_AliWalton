@@ -2,7 +2,7 @@
 
 import time
 
- #first instance of time in programming
+ #first instance of time in programmin
 #print(time.gmtime(0)
 
 #current time in seconds since gmtime

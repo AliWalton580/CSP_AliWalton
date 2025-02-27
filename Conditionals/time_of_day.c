@@ -2,14 +2,22 @@
 #include <stdio.h>
 #include <time.h>
 
-time_t rawtime;
+int main(void){
+    time_t rawtime;
     struct tm * timeinfo;
-
-    time(&rawtime);
+     time(&rawtime);
     timeinfo = localtime(&rawtime);
-    printf("Current time and date is %s\n", asctime(timeinfo));
     time_t now = time(NULL);
     struct tm *tm_struct = localtime(&now);
     int hour = tm_struct->tm_hour;
-    printf("%d\n", hour);
+
+
+    if  (hour <= 17){
+    printf("Good Evening!");
+    }else if (hour >=12){
+    printf("Good afternoon!");
+    }else if (hour < 12){
+    printf("Good morning!");
+    }
     return 0;
+}
