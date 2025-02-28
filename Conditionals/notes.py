@@ -16,7 +16,7 @@
 #if num == 1: #top condition should be the least likely
    # print("You have asked for an item")
 #elif num <= 3:
-    #print("You have asked a couple of the itemm")
+    #print("You have asked a couple of the item")
 #elif num <= 5:
     #print("You have asked for a few of the items. . . or your in the south and you aked for a couple")
 #else:
