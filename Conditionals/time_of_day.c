@@ -13,11 +13,11 @@ int main(void){
 
 
     if  (hour <= 17){
-    printf("Good Evening!");
+    printf("Good Evening!\n");
     }else if (hour >=12){
-    printf("Good afternoon!");
+    printf("Good afternoon!\n");
     }else if (hour < 12){
-    printf("Good morning!");
+    printf("Good morning!\n");
     }
     return 0;
 }
