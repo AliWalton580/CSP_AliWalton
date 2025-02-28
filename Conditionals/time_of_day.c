@@ -12,7 +12,7 @@ int main(void){
     int hour = tm_struct->tm_hour;
 
 
-    if  (hour <= 17){
+    if  (hour >= 17){
     printf("Good Evening!\n");
     }else if (hour >=12){
     printf("Good afternoon!\n");
