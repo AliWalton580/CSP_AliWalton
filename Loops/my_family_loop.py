@@ -1,8 +1,6 @@
-# Ali Walton, My Family Loop in Pythn
+# Ali Walton, My Family Loop in Python
 
-family = ["Charles", "Gabe", "Ali"]
+family = ["Caleb", "Sam", "Alex", "Peter"]
 
-num = 1
 for family in family:
-    print(f"{num}. Hello {family}.")
-    num +=1
+    print(f"Hello, {family}.")
