@@ -1,6 +1,6 @@
-#Quiz
-
-print("Hello and welcome to this very easy trivia quiz! Type in your answers and try to get all 10 questions correct.\n")
+#Gavin Woodhouse, Tatiana Susov, Andrea Lugo, Ali Walton, Quiz
+# Official final programming game title = Super-Duper Easy Quiz
+print("Hello and welcome to this veeeery easy trivia quiz! Type in your answers and try to get all 10 questions correct.\n")
 score = 0
 asked_1 = 0
 asked_2 = 0
@@ -55,7 +55,7 @@ while num < 10:
         num +=1
     
     elif rand == 3 and asked_3 == 0:
-        guess = question("If you had a speech impediment/disorder, how would you pronounce it")
+        guess = question("If you had a speech impediment/disorder (ex: lisp, stuttering, dyslexia), how would you pronounce it")
         answer("lithp", "stutututtering", "lysdexia")
         asked_3 = 1
         num +=1
@@ -67,7 +67,7 @@ while num < 10:
         num +=1
         
     elif rand == 5 and asked_5 == 0:
-        guess = question("What is 2 + 2")
+        guess = question("What is 2 + 2 (Hint: 4 is not an answer)")
         answer("22", "an equation", "fish")
         asked_5 = 1
         num +=1
@@ -159,12 +159,12 @@ while num < 10:
     else:
         rand = random.randint(1,19)
 
-guess = int(input(f"Last question! What is your score?\n"))
+guess = int(input(f"Last question! What is your score (ex: 7)?\n"))
 if guess == score or guess == score+1:
-    print("Correct!\n")
+    print("That's it!\n")
     score +=1      
 else:
-    print("Incorrect!\n")
+    print("So close!\n")
 
 # Keeping track of the score to print what it is after answering the questions(Tells player how many they gott correct)
 if score == 10:
@@ -180,7 +180,7 @@ elif score == 6:
 elif score == 5:
     print(f"You got 50% of questions correct! So close, yet so far.")
 elif score == 4:
-    print(f"You got four out of ten questions correct, you did good, some of tho")
+    print(f"You got four out of ten questions correct, you did good, some of the time.")
 elif score == 3:
     print(f"You got three out of ten questions correct, thats 1/3, better than 1/4!")
 elif score == 2:
@@ -188,4 +188,4 @@ elif score == 2:
 elif score == 1:
     print(f"Only one question correct out of ten, nice try.")
 else:
-    print(f"You got zero questions correct! You must be a genius and intentionally got all these incorrect, if not, you still did good, thank you for trying.")    
+    print(f"You got zero questions correct! You must be a genius and intentionally got all these incorrect, if not, you still did good, thank you for trying.")
