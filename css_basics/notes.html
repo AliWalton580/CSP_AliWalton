@@ -3,12 +3,55 @@
         <head>
             <meta charset="UTF-8">
             <title>CSS Basics Notes</title>
+            <!--emebeded style sheet-->
+            <style>
+                /*Slectors:
+                1. Using the tag as the selector- element selector
+                <dd></dd>-source image*/
+                *{
+                    background-color: orange;
+                }
+                li{
+                    color:Green;
+                }
+                #even{
+                    color:blue;
+                    font-size: 15px;
+                }
+                .intro{
+                    color:#CE8A65;
+                    text-align: center;
+                }
+                #img-src{
+                    font-size:7px;
+                    color:gray;
+                }
+                img{
+                    width:15%;
+                }
+                h1{
+                    font-size: 35px;
+                    text-align:center;
+                    text-decoration:underline;
+                    text-emphasis:bold;
+                }
+            </style>
         </head>
         <body>
             <h1>HTML Advanced Notes</h1>
-            <h2></h2>
-            <h3></h3>
-            <p></p>
+            <p class=intro> Nesting an html tag is putting it insdie of another one</p>
+            <ol>
+            <li> li tags must be nested</li>
+            <li id="even">What appears on the webpage is nested in the body</li>
+            </ol>
+            <h2>Candy!</h2>
+            <ul>
+                <li>Butterfinger</li>
+                <li id="even">Crunch</li>
+                <li>100 Grand</li>
+                <img src="https://newgenbaker.com/wp-content/uploads/2019/03/food-3048440_960_720.jpg">
+                <p id="img-src">Image from: medium</p>
+            </ul>
         </body>
     </html>
 </DOCTYPE>
