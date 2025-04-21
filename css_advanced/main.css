@@ -14,10 +14,10 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#one{
-     /*display: flex;
-   flex-direction: row-reverse;*/
-}
+/*#one{
+     display: flex;
+   flex-direction: row-reverse;
+}*/
 img{
     height:150px;
 }
