@@ -1,5 +1,33 @@
-
+*{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#B7CBE0;
+    color:purple;
+}
+img{
+    height: 150px;
+    margin:5px;
+}
+#art-styles{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+}
+#art-supplies{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px; 
+}
 #content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+#art-info{
+    display:flex;
+    flex-wrap: wrap;
 }

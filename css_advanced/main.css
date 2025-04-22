@@ -4,21 +4,24 @@
     font-weight: 400;
     font-style: normal;
 }
-p{
+#one{
+    display: flex;
     background-color: white;
     border-radius: 5px;
-    padding:3px;
-    margin:2px;
+    padding:5px;
+    margin:5px;
+}
+#two{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding:0%;
     margin:2px;
 }
 #content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
-/*#one{
-     display: flex;
-   flex-direction: row-reverse;
-}*/
 img{
     height:150px;
 }
