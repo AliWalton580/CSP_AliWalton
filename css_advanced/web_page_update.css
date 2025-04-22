@@ -5,27 +5,41 @@
     font-weight: 400;
     font-style: normal;
 }
-p{
-    background-color: lightgrey;
-    border-radius: 5px;
+h2{
+    background-color: white;
     padding:3px;
     margin:2px;
 }
-#content{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+p{
+    background-color: white;
+    padding:1px;
+    margin:1px;
 }
-
+ul{
+    background-color: white;
+    padding:3px;
+    margin:2px;
+}
 img{
     height:150px;
+    background-color: white;
 }
 #img{
+    background-color: white;
     display:flex;
-    justify-content: left;
-    align-items: flex-end;
+    justify-content:center;
+    padding:3px;
+    margin:2px;
 }
 #img-two{
+    background-color: white;
+    padding:3px;
+    margin:2px;
     display:flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content:center;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
