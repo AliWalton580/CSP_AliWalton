@@ -11,14 +11,14 @@ img{
 }
 #art-styles{
     display: flex;
-    background-color: lightgray;
+   background-color: lightcoral;
     border-radius: 5px;
     padding:5px;
     margin:5px;
 }
 #art-supplies{
     display: flex;
-    background-color: lightgray;
+    background-color: lightcoral;
     border-radius: 5px;
     padding:5px;
     margin:5px; 
@@ -30,4 +30,14 @@ img{
 #art-info{
     display:flex;
     flex-wrap: wrap;
+}
+#img-wrapper{
+    background-color: lightcoral;
+    display: flex;
+    margin: 5px;
+    border-radius: 3px;
+    -ms-flex-item-align: end;
+}
+#listOne{
+    background-color: lightcoral;
 }
