@@ -4,7 +4,7 @@ let images =["https://theartofeducation.edu/wp-content/uploads/2020/07/Pic-1.jpg
 count = 0
 function change(){
     document.getElementById("img").src = images[count]
-    if(count === 1){
+    if(count === 2){
         count = 0
     }else{
         count += 1
