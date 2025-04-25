@@ -5,18 +5,6 @@
     background-color:#B7CBE0;
     color:purple;
 }
-#h{
-    background-color: lightcoral;
-}
-#j{
-    background-color: lightcoral;
-}
-#listOne{
-    background-color: lightcoral;
-}
-#list{
-    background-color: lightcoral;
-}
 #art-styles{
     display: flex;
     background-color: lightcoral;
@@ -55,5 +43,3 @@ img{
     align-self: center;
     flex-wrap: wrap;
 }
-
-

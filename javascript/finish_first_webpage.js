@@ -10,26 +10,17 @@ function change(){
         count += 1
     }
 }
-
-function highlight(){
-    document.getElementById("btn").style.backgroundColor = "orange"
-    document.getElementById("btn").style.color = "white"
-}
-
-function normal(){
-    document.getElementById("btn").style.backgroundColor = "gray"
-    document.getElementById("btn").style.color = "black"
-}
-
 function show(){
-    document.getElementById("hidden").style.display = "block"
+    document.getElementById("extra").style.display = "block"
+    document.getElementById("paragraph").style.display = "block"
 }
 function more(){
     if(document.getElementById("extra").style.display !="flex"){
-        document.getElementById("extra").style.display = "none"
-        document.getElementById("shw").innerHTML ="Show Less"
+        document.getElementById("paragraph").style.display = "none"
+         document.getElementById("extra").style.display = "none"
+        document.getElementById("paragraph").innerHTML ="Show Less"
     }else{
-        document.getElementById("extra").style.display = "none"
-        document.getElementById("shw").innerHTML ="Show More"
+        document.getElementById("extra").style.display = "show"
+        document.getElementById("paragraph").innerHTML ="Show More"
     }
 }
