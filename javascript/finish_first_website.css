@@ -5,6 +5,10 @@
     background-color:#B7CBE0;
     color:purple;
 }
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 img{
     height: 150px;
     margin:5px;
@@ -23,10 +27,11 @@ img{
 }
 #art-styles{
     display: flex;
-   background-color: lightcoral;
+    background-color: lightcoral;
     border-radius: 5px;
     padding:5px;
     margin:5px;
+    flex-wrap: wrap;
 }
 #art-supplies{
     display: flex;
@@ -34,19 +39,19 @@ img{
     border-radius: 5px;
     padding:5px;
     margin:5px; 
-}
-#content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
 }
 #art-info{
-    display:flex;
-    flex-wrap: wrap;
+    display:grid;
 }
 #img-wrapper{
     background-color: lightcoral;
     display: flex;
     margin: 5px;
     border-radius: 3px;
-    -ms-flex-item-align: end;
+    padding: 5px;
+    align-self: center;
+    flex-wrap: wrap;
 }
+
+
