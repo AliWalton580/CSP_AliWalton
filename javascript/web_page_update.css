@@ -1,4 +1,4 @@
-*{
+body{
     font-family: "Fredericka the Great", serif;
     font-weight: 400;
     font-style: normal;
@@ -48,5 +48,4 @@ img{
     display: flex;
     margin: 5px;
     border-radius: 3px;
-    -ms-flex-item-align: end;
 }

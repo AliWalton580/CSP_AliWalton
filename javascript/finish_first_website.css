@@ -1,4 +1,4 @@
-*{
+body{
     font-family: "Fredericka the Great", serif;
     font-weight: 400;
     font-style: normal;
@@ -6,25 +6,23 @@
     color:purple;
 }
 #art-styles{
-    display: flex;
+    display: auto;
     background-color: lightcoral;
     border-radius: 5px;
     padding:5px;
     margin:5px;
-    flex-wrap: wrap;
 }
 #art-supplies{
-    display: flex;
+    display: auto;
     background-color: lightcoral;
     border-radius: 5px;
     padding:5px;
     margin:5px; 
-    flex-wrap: wrap;
 }
 #art-info{
     display:flex;
 }
-#content{
+#info{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -38,8 +36,12 @@ img{
     background-color: lightcoral;
     display: flex;
     margin: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
-    align-self: center;
     flex-wrap: wrap;
+}
+#btn{
+    display: flex;
+    height: 30px;
+    width:80px;
 }

@@ -1,13 +1,14 @@
-let images =["https://theartofeducation.edu/wp-content/uploads/2020/07/Pic-1.jpg"
+let images =["https://smashingpencilsart.com/wp-content/uploads/2021/06/art-supplies-photo-min-2048x1314-1.jpg","https://theartofeducation.edu/wp-content/uploads/2020/07/Pic-1.jpg"
 ]
 
-count = 0
+let count = 0
 function change(){
-    document.getElementById("img").src = images[count]
-    if(count === 2){
-        count = 0
-    }else{
+    if(count < images.length){
+        document.getElementById("img").src = images[count]
         count += 1
+    }else{
+        count = 0
+        document.getElementById("img").src = images[count]
     }
 }
 function show(){
@@ -15,12 +16,11 @@ function show(){
     document.getElementById("paragraph").style.display = "block"
 }
 function more(){
-    if(document.getElementById("extra").style.display !="flex"){
-        document.getElementById("paragraph").style.display = "none"
-         document.getElementById("extra").style.display = "none"
-        document.getElementById("paragraph").innerHTML ="Show Less"
+    if(document.getElementById("pThree").style.display === "block"){
+        document.getElementById("pThree").style.display = "none"
+        document.getElementById("btn").innerHTML ="Show More"
     }else{
-        document.getElementById("extra").style.display = "show"
-        document.getElementById("paragraph").innerHTML ="Show More"
+        document.getElementById("pThree").style.display = "block"
+        document.getElementById("btn").innerHTML ="Show Less"
     }
 }
