@@ -1,8 +1,4 @@
-function change(){
-    document.getElementById("img").src = images[count]
-    if(count === 2){
-        count = 0
-    }else{
-        count += 1
-    }
+
+function show(){
+    document.getElementById("hidden").style.display = "block"
 }
