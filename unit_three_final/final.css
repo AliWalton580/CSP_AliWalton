@@ -12,6 +12,8 @@ h1{
 h2{
     background-color: rgb(222, 224, 255);
     border-radius: 3px;
+    text-decoration: underline;
+    padding: 5px;
 }
 ol{
     background-color: rgb(222, 224, 255);
@@ -23,6 +25,11 @@ button{
     border-radius: 2px;
 }
 p{
+    display: grid;
     background-color: rgb(222, 224, 255);
     border-radius: 3px;
 } 
+#content{
+    display: grid;
+    grid-template-columns: 1 fr 1fr 1fr;
+}
