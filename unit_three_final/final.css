@@ -8,19 +8,20 @@ body{
 #content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr
 }
 h1{
     text-align: center;
     text-decoration: underline;
 }
 h2{
-    background-color: rgb(222, 224, 255);
+    background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
     padding: 5px;
 }
-ol{
-    background-color: rgb(222, 224, 255);
+ul{
+    background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
 }
@@ -30,8 +31,19 @@ button{
     border-radius: 2px;
 }
 p{
-    background-color: rgb(222, 224, 255);
+    background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
     padding: 5px;
 } 
+#about{
+    display: grid;
+    grid-column-start:;
+    grid-column-end:;
+    background-color: rgb(208, 211, 254);
+    border-radius: 4px;
+}
+#list{
+    background-color: rgb(208, 211, 254);
+    border-radius: 4px;
+}
