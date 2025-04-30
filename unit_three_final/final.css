@@ -1,3 +1,4 @@
+
 body{
     font-family: "Delius", cursive;
     font-weight: 400;
@@ -7,39 +8,42 @@ body{
 }
 #content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
 }
 h1{
+    display: grid;
+    background-color: rgb(208, 211, 254);
     text-align: center;
     text-decoration: underline;
 }
 h2{
+    display: grid;
     background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
     padding: 5px;
 }
 ul{
+    display: grid;
     background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
 }
 button{
+    display: grid;
     border: 1.5px solid rgb(135, 132, 153);
     background-color: rgb(191, 192, 207);
     border-radius: 2px;
 }
 p{
+    display: grid;
     background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
     padding: 5px;
 } 
-#about{
+#info{
     display: grid;
-    grid-column-start:;
-    grid-column-end:;
     background-color: rgb(208, 211, 254);
     border-radius: 4px;
 }

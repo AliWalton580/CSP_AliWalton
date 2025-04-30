@@ -11,17 +11,19 @@
             <style>
                 img{
                     width: 150px;
+                    margin: 5px;
+                }
+                #hidden{
+                    display: none;
                 }
             </style>
         </head>
         <body>
             <div id="main">
+                <div id="info">
             <h1>Snowbird Ski Resort</h1>
             
             <div id=" content">
-            <div id="about">
-            <h2>About Snowbird</h2>
-            <img id="" alt="">
             <p>Snowbird is a place many people go to ski and have fun, Snowbird has places to stay. In the winter it's very cold and gets a lot of snow each year around the time people go and ski up there, there are multiple different difficulty levels.</p>
             </div>
             </div>
@@ -29,15 +31,19 @@
             <div id="list">
             <h2>Why You Should Visit</h2>
             <ul>
-                <li>The scenery</li>
-                <li>The many activities</li>
-                <li>The lodges</li>
-                <li>Varried terrain</li>
+                <li>The scenery: Snowbird has many amazing views to see, the mountains and trees are beautiful</li>
+                <li>The many activities:</li>
+                <li>The lodges:</li>
+                <li>Varried terrain:</li>
             </ul>
             </div>
-            <p id="hidden" onclick="show()">hidden paragraph</p>
+            
+            <button id="btn" onclick="more()">Show More</button>
+            <div id="hidden">
+            <h2 id="extra">header</h2>
+            <p id="paragraph">hidden paragraph</p>
             <img id="imageOne" src="https://www.skiutah.com/files/subblob/service/heroes._71A8720_ChrisSegal_Ten-2-Share/1072139134" alt="sunset image">
-            <button id="btn">Click Me!</button>
+            </div>
             </div>
         </body>
     </html>
