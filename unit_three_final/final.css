@@ -44,6 +44,7 @@ p{
 } 
 #info{
     display: grid;
+    grid-template: 
     background-color: rgb(208, 211, 254);
     border-radius: 4px;
 }
