@@ -43,8 +43,7 @@ p{
     padding: 5px;
 } 
 #info{
-    display: grid;
-    grid-template: 
+    display:grid;
     background-color: rgb(208, 211, 254);
     border-radius: 4px;
 }
