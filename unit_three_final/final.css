@@ -39,10 +39,6 @@ button{
     border: 1.5px solid rgb(135, 132, 153);
     background-color: rgb(191, 192, 207);
     border-radius: 2px;
-    width: 200px;
-    height: auto;
-    display: grid;
-    place-items: center;
 }
 p{
     display: grid;
@@ -59,4 +55,14 @@ p{
 #list{
     background-color: rgb(208, 211, 254);
     border-radius: 4px;
+}
+#mountain{
+    display:grid;
+    margin: left;
+    width: auto;
+}
+#lodgeImage{
+    display:grid;
+    margin: auto;
+    width: auto;
 }
