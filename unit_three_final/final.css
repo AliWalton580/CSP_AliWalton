@@ -8,10 +8,13 @@ body{
 }
 #stuff{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 7px;
+    padding: 3px;
 }
 #content{
     display: grid;
+    padding: 10px;
 }
 h1{
     display: grid;
@@ -33,17 +36,20 @@ ul{
     margin: 5px;
 }
 button{
-    display: grid;
     border: 1.5px solid rgb(135, 132, 153);
     background-color: rgb(191, 192, 207);
     border-radius: 2px;
+    width: 200px;
+    height: auto;
+    display: grid;
+    place-items: center;
 }
 p{
     display: grid;
     background-color: rgb(208, 211, 254);
     border-radius: 3px;
     margin: 5px;
-    padding: 5px;
+    padding: 2px;
 } 
 #info{
     display:grid;
