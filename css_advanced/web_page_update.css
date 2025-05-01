@@ -1,0 +1,18 @@
+body{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#B7CBE0;
+    color:purple;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#img-wrapper{
+    background-color: lightcoral;
+    display: grid;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}

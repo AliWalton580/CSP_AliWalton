@@ -5,14 +5,14 @@
     font-style: normal;
 }
 #one{
-    display: flex;
+    display: grid;
     background-color: white;
     border-radius: 5px;
     padding:5px;
     margin:5px;
 }
 #two{
-    display: flex;
+    display: grid;
     background-color: white;
     border-radius: 5px;
     padding:0%;
