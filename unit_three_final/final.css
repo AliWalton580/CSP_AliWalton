@@ -1,15 +1,16 @@
 
 body{
     font-family: "Delius", cursive;
-    font-weight: 400;
+    font-weight: 550;
+    font-size: large;
     font-style: normal;
     background-color: rgb(187, 188, 240);
     color: rgb(2, 3, 80);
 }
 #stuff{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 5px;
+    grid-template-columns: 1fr 1fr;
+    margin:5px;
     padding: 3px;
 }
 #content{
@@ -51,8 +52,10 @@ p{
     display:grid;
     background-color: rgb(208, 211, 254);
     border-radius: 4px;
+    margin: 5px;
 }
 #list{
+    margin: 5px;
     background-color: rgb(208, 211, 254);
     border-radius: 4px;
 }

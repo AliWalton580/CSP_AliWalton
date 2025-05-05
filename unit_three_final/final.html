@@ -9,10 +9,18 @@
             <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <style>
+                #imgs{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 20px;
+                align-items: center;
+                justify-items: center;
+                }
                 img{
                     height: 200px;
-                    width: auto;
                     margin: 5px;
+                    border: 5px solid rgb(27, 2, 69);
+                    border-radius: 3px;
                 }
                 #hidden{
                     display: none;
@@ -24,26 +32,26 @@
             <div id="info">
             <h1>Snowbird Ski Resort</h1>
             <div id="content">
-            <p>Snowbird ski resort id renowned for it's expansive terrain, good snow quailty, and multiple difficulty levels. It has many amazing viwes of mountains and trees in both summer and winter. It is somewhere people will go year-round for the different experiences throughout the different seasons.</p>
+            <p>Snowbird is one of the most accessible alpine resorts in North America being 29 miles away of the Salt Lake Airport. Snowbird ski resort of renowned for it's expansive terrain, good snow quailty, many lodging options, and multiple difficulty levels. It has many amazing activities to do and views and of mountains and trees in both summer and winter. It is somewhere people will go year-round for the different experiences throughout the different seasons.</p>
             <button id="btn" onclick="more()">Show More</button>
             </div>
             </div>
             
-        
-            <div id="stuff">
                 <div id="imgs">
                     <img id="mountain" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/92/6d/f2/aerial-view-of-snowbird.jpg?w=900&h=500&s=1" alt="mountains">
-                    <img id="lodgeImage" src="https://images.squarespace-cdn.com/content/v1/5e7a324590664f18b1bfea0c/257b112e-7cb1-418a-9286-aa04e031dd30/snowbirdclifflodgeview.jpg" alt="lodge">
-                    <img id="img" onmouseover="change()" src="https://www.visitutah.com/azure/cmsroot/visitutah/media/site-assets/winter-photography/ski-resorts/snowbird/snowbird_skiing_winter_little-cottonwood_solberg-otto_courtesy-of-snowbird_2023.jpg" alt="ski">
+                    <img id="lodgeImage" onmouseover="change()" src="https://images.squarespace-cdn.com/content/v1/5e7a324590664f18b1bfea0c/257b112e-7cb1-418a-9286-aa04e031dd30/snowbirdclifflodgeview.jpg" alt="lodge">
+                    <img id="img" src="https://www.visitutah.com/azure/cmsroot/visitutah/media/site-assets/winter-photography/ski-resorts/snowbird/snowbird_skiing_winter_little-cottonwood_solberg-otto_courtesy-of-snowbird_2023.jpg" alt="ski">
                     </div>
+                    
+            <div id="stuff">
             <div id="list">
             <h2>Why You Should Visit</h2>
             <ul>
-                <li>The scenery: Snowbird has many amazing views to see, the mountains and trees are beautiful</li>
+                <li>The scenery: Snowbird has many amazing views to see when visiting in all the seasons</li>
                 <br>
-                <li>The many activities: there is more than just skiing to do there, the pool and game are a couple examples </li>
+                <li>The many activities: there is more than just skiing to do there, the pool and games are a couple examples </li>
                 <br>
-                <li>The lodges: The lodges are a great place to stay while there, there are a variety of resturants and other actvities like the pool</li>
+                <li>The lodges: The lodges are a great place to stay while there, there are a variety of resturants and other actvities like the pool and spa</li>
                 <br>
                 <li>Varried terrain: Snowbirds varried terrain  is one of the things that makes it a great place to ski</li>
             </ul>
@@ -51,8 +59,9 @@
             
             <div id="hidden">
             <h2 id="extra">Activities</h2>
-            <p id="paragraph">Snowbird in summer and winter have many fun activities to do, in winter there is skiing and snowboarding. In summer there is things like hiking, there are trams to ride, the mountain coaster. Those are the main actvities peoplse do up there, but there are many other entertaining things year-round.</p>
-            <img id="imageOne" src="https://www.skiutah.com/files/subblob/service/heroes._71A8720_ChrisSegal_Ten-2-Share/1072139134" alt="sunset image">
+            <p id="paragraph">Snowbird in summer and winter have many fun activities to do, in winter there is skiing, snowboarding, and more. In summer there are things like hiking, there are trams to ride, the mountain coaster which is like a roller coaster. Those are the main actvities people do up there, but there are many other entertaining things year-round in the different seasons.</p>
+            <img id="imageTwo" src="https://www.skiutah.com/files/subblob/service/heroes._71A8720_ChrisSegal_Ten-2-Share/1072139134" alt="sunset image">
+            <img id="imageTwo" src="https://rcdb.com/aaedbda" alt="mountain coaster">
             </div>
             </div>
         </body>
