@@ -8,8 +8,8 @@ body{
 }
 #stuff{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 7px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
     padding: 3px;
 }
 #content{
@@ -61,8 +61,10 @@ p{
     margin: left;
     width: auto;
 }
-#lodgeImage{
-    display:grid;
-    margin: auto;
-    width: auto;
+#hidden{
+    display: grid;
+    background-color:rgb(208, 211, 254);
+    margin: 7px;
+    padding: 3px;
+    border-radius: 4px;
 }
