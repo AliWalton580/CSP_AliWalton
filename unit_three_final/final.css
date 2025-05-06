@@ -11,11 +11,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin:5px;
-    padding: 3px;
+    padding: 5px;
 }
 #content{
     display: grid;
     padding: 10px;
+    
 }
 h1{
     display: grid;

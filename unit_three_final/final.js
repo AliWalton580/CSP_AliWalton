@@ -1,4 +1,4 @@
-let images =["https://images.squarespace-cdn.com/content/v1/5e7a324590664f18b1bfea0c/257b112e-7cb1-418a-9286-aa04e031dd30/snowbirdclifflodgeview.jpg" , "https://wms.org/images/Conferences/Summer/2024/Jay_Dash_Photography_2.jpg"
+let images =["https://wms.org/images/Conferences/Summer/2024/Jay_Dash_Photography_2.jpg", "https://images.squarespace-cdn.com/content/v1/5e7a324590664f18b1bfea0c/257b112e-7cb1-418a-9286-aa04e031dd30/snowbirdclifflodgeview.jpg"
 ]
 
 let count = 0
